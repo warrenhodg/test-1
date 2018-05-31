@@ -1,5 +1,15 @@
 version: 1
 users:
+  user:
+    public_key: |
+      -----BEGIN RSA PUBLIC KEY-----
+      MIIBCgKCAQEA5mabzNmpJCcewSQTtOCNKPcfyBOb7I/tQcWVakA1gpKlSpzTMIH/
+      JRAnvivLCd/cOEV2eZUTlVwawamOBjvtZMKf9G92gCLTTg9C7kTjWKi8zJHf28NQ
+      /bqzXPeof1ws79QvPekykbityIRjBVY5pSva+AGnoLLMaQjkGqmd00ewtno+UJoy
+      3UvjdyMwOL+VGMRid8Uijc86bckuOR5Qw3cWQrAQck0hH+fpScTUfPaXAhqXn23R
+      Y1LjnkZPf8SzknHOCciAsa7UOxMOOghE9e4q9Gp3ga1wTcz0x1MRHOptpb7zV0pZ
+      CuUMIUb1fpC8XOijIPgTzQd6GS3duqTuVQIDAQAB
+      -----END RSA PUBLIC KEY-----
   warren.hodgkinson:
     public_key: |
       -----BEGIN RSA PUBLIC KEY-----
@@ -9,16 +19,6 @@ users:
       mkqF9ysgZUyy8kzoymQ1TVEUzSSC3okmjLo/VO0Em/n+C2Xln4WGWbv8GP+3IIOO
       3aQZLS5vJ8gHFxW7Fc2y2gCfJjK/9rTDxy1EYthkimoJXyDMrApAdJlaZg9R5e3c
       nLwUcu54JqPCMoXdxN63fzfyAzewckF9zwIDAQAB
-      -----END RSA PUBLIC KEY-----
-  warren_gaming:
-    public_key: |
-      -----BEGIN RSA PUBLIC KEY-----
-      MIIBCgKCAQEA5mabzNmpJCcewSQTtOCNKPcfyBOb7I/tQcWVakA1gpKlSpzTMIH/
-      JRAnvivLCd/cOEV2eZUTlVwawamOBjvtZMKf9G92gCLTTg9C7kTjWKi8zJHf28NQ
-      /bqzXPeof1ws79QvPekykbityIRjBVY5pSva+AGnoLLMaQjkGqmd00ewtno+UJoy
-      3UvjdyMwOL+VGMRid8Uijc86bckuOR5Qw3cWQrAQck0hH+fpScTUfPaXAhqXn23R
-      Y1LjnkZPf8SzknHOCciAsa7UOxMOOghE9e4q9Gp3ga1wTcz0x1MRHOptpb7zV0pZ
-      CuUMIUb1fpC8XOijIPgTzQd6GS3duqTuVQIDAQAB
       -----END RSA PUBLIC KEY-----
 groups:
   _:
@@ -31,3 +31,19 @@ groups:
         kG8p576SzmNE0NbK+qqGZBYv2JGDs3oN3kR2oq4OsjNbXLaAFPlVw3sIFODtlA==
     values:
       foo: !!binary itTh1ANQIP05FmOFw723Ygsyhg==
+  __:
+    keys:
+      user: !!binary |
+        dZmdhDXzbfBqu5ZIREJXNJhp8hKUIFw+qZS5oI3NZVeWM2DFzRaQCVwjVYNSmdXQ/caXy6
+        1qG3vzV+43vvtQ9xgru9vYJklMJOVhgRz4axfHM9Zu+FCdtwHRczCS2jMd3aYhTi+Ea6DR
+        85tMdIBgD4VGzC944ezhTYeZ4RdwWy3wzpv+2yElISaFTNN1XxEeU9AfHnt/dmW9MH0NMC
+        hcqp0k+m+J0xTKF7PPgdFKANRkUpFNnHslVJIPxTExoVWbHkKCU0nbsFvuzqc7WbQthtAE
+        1UwpjisQfWmJZpX+54oKC6U+UTvGZ9VzB9YTb6Qmq00jgxVDq0DZC1tlQIcOqA==
+      warren.hodgkinson: !!binary |
+        uYpE22JgE9xBMIQ/oNJn0Hr7i6UthsSyvQeueNPxf8kvs9OeUCMyqT9AWMCE4RjrbMWrZZ
+        LjcEvPlngGNV7ddomdPw/HIewQj68sljGhvSFQyseLqBPcVKQHrlKrpmE6lbJ564bZdptX
+        irGSilIwMSfq8RTjv28y2/C24g+1JQBS2iIUhyY5CsEqe4yN+UwUAfy2dvK3Jn0hpUu3Ua
+        fHPl85CYT5kRL1VM44OqBphy6LazGyClLNa1RnwYPgNMppKxTx35JdxVNu7DWWJ/nui9IK
+        bN7jvjos/lOnHNyUyMKJBQh945D5w36Atgq5Wyusdriefk8MFIx1F3FEmUPnaQ==
+    values:
+      a: !!binary NVj9+BcW04kKm8jKl/0XOKEWp6Zz
