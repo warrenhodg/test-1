@@ -1,5 +1,15 @@
 version: 1
 users:
+  warren.hodgkinson:
+    public_key: |
+      -----BEGIN RSA PUBLIC KEY-----
+      MIIBCgKCAQEA4McOHDUGS5XObpXOdeaPky20pxLKhWANbo1IIp168RsSHV7tsRTQ
+      QaGPLK8l8ltUfxtpGxMWRONC6oJeyeYjVlOD5U+BLdeXTssdxVowdHkAI6FtcrUk
+      m6zbrE+mew5p2UccLUWc5mwBBunL+suNnp94ZRDA8zXWAdEqlz/BnJcD1gGAbV6e
+      mkqF9ysgZUyy8kzoymQ1TVEUzSSC3okmjLo/VO0Em/n+C2Xln4WGWbv8GP+3IIOO
+      3aQZLS5vJ8gHFxW7Fc2y2gCfJjK/9rTDxy1EYthkimoJXyDMrApAdJlaZg9R5e3c
+      nLwUcu54JqPCMoXdxN63fzfyAzewckF9zwIDAQAB
+      -----END RSA PUBLIC KEY-----
   warren_gaming:
     public_key: |
       -----BEGIN RSA PUBLIC KEY-----
@@ -10,3 +20,14 @@ users:
       Y1LjnkZPf8SzknHOCciAsa7UOxMOOghE9e4q9Gp3ga1wTcz0x1MRHOptpb7zV0pZ
       CuUMIUb1fpC8XOijIPgTzQd6GS3duqTuVQIDAQAB
       -----END RSA PUBLIC KEY-----
+groups:
+  _:
+    keys:
+      warren.hodgkinson: !!binary |
+        yH4muksMUbo3HY0kSrZxnomDBxob8j+f5eNbPtBvG2abrjSX1IjhI5gGpvCupNpIX8TTTk
+        3RePi7n4X+jP5VjKPI+P6xpXNxxzJUS0kUwv3ABopfKap6/ZCIWRyHqMDi3WbRTmD4zG1p
+        VW/T17pR+3RnvcO3ZCsxoSCW4mecJp/Yf8wR0xcR9TWtfFpl/vCMNC7wEbAyX5jfWEpSfx
+        zOw19xyL6nrSbnlWnMXqb/U+XRjmVUhuKnB/REMfJNWVqiA1XgnEbEI/qZjOcRexPuUiP/
+        kG8p576SzmNE0NbK+qqGZBYv2JGDs3oN3kR2oq4OsjNbXLaAFPlVw3sIFODtlA==
+    values:
+      foo: !!binary itTh1ANQIP05FmOFw723Ygsyhg==
