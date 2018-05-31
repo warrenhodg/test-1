@@ -1,0 +1,12 @@
+version: 1
+users:
+  warren_gaming:
+    public_key: |
+      -----BEGIN RSA PUBLIC KEY-----
+      MIIBCgKCAQEA5mabzNmpJCcewSQTtOCNKPcfyBOb7I/tQcWVakA1gpKlSpzTMIH/
+      JRAnvivLCd/cOEV2eZUTlVwawamOBjvtZMKf9G92gCLTTg9C7kTjWKi8zJHf28NQ
+      /bqzXPeof1ws79QvPekykbityIRjBVY5pSva+AGnoLLMaQjkGqmd00ewtno+UJoy
+      3UvjdyMwOL+VGMRid8Uijc86bckuOR5Qw3cWQrAQck0hH+fpScTUfPaXAhqXn23R
+      Y1LjnkZPf8SzknHOCciAsa7UOxMOOghE9e4q9Gp3ga1wTcz0x1MRHOptpb7zV0pZ
+      CuUMIUb1fpC8XOijIPgTzQd6GS3duqTuVQIDAQAB
+      -----END RSA PUBLIC KEY-----
